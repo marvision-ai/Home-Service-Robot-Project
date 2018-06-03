@@ -1,5 +1,21 @@
 # home_service_robot
 
+### To Run this project
+
+`git clone https://github.com/mbufi/home_service_robot/` to downloads.
+
+Navigate to `catkin_ws\src` and copy all the contents in `home_service_robot` into that folder. (do not over write the CMAKELISTS) 
+
+Once all folders are in `src`, navigate to `catkin_ws` and run `$catkin_make` to build the project.
+
+Then source the environment `$ source devel/setup.bash`
+
+Navigate to `catkin_ws\src\ShellScripts` and run `./home_service.sh`. (Make you have modified its permissions to be executable)
+
+Then sit back and watch it move to the target location, wait, and the proceed back to where it came from.
+
+
+
 ### Official ROS packages this Project requires: 
 
 To get this project to work, import these packages and install them in the src directory of your catkin workspace. Be sure to clone the full GitHub directory and not just the package itself.
