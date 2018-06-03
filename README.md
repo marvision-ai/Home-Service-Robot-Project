@@ -41,6 +41,7 @@ To get this project to work, import these packages and install them in the src d
 3. turtlebot_rviz_launchers: With the view_navigation.launch file, you can load a preconfigured rviz workspace. You’ll save a lot of time by launching this file, because it will automatically load the robot model, trajectories, and map for you.
 4. turtlebot_gazebo: With the turtlebot_world.launch you can deploy a turtlebot in a gazebo environment by linking the world file to it.
 
+Make sure you installed all the package dependencies with `$rosdep -i install <package name>`
 
 ### Additional packages developed for this project: 
 These are the packages that will be placed in the `catkin/src` directory of your workspace when you clone this repo: 
