@@ -1,5 +1,21 @@
 # home_service_robot
 
+
+### Summary of Tasks
+The tasks required to complete the project are:
+
+1. Design a simple environment using the Building Editor in Gazebo.
+2. Teleoperate the robot and manually test SLAM.
+3. Create a wall_follower node that autonomously drives the robot to map the environment.
+4. Use the 2D Nav Goal arrow in rviz to move to two different desired positions and orientations.
+5. Write a pick_objects node in C++ that commands the robot to move to the desired pickup and drop off zones.
+6. Write an add_markers node that subscribes to robot odometry keeping track of the robot pose, and publishes markers to rviz.
+7. Combine all of the forgoing to simulate a robot moving to a pick up point, and "carrying" a virtual object to a dropoff point.
+
+
+
+
+
 ### To Run this project
 
 `git clone https://github.com/mbufi/home_service_robot/` to downloads.
