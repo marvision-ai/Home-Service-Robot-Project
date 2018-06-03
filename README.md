@@ -11,7 +11,7 @@ To get this project to work, import these packages and install them in the src d
 
 
 ### Additional packages developed for this project: 
-These are the packages that will be placed in the `catkin/src` directory of your workspace: 
+These are the packages that will be placed in the `catkin/src` directory of your workspace when you clone this repo: 
 
 1. World: Location to store the gazebo world file and the map generated from SLAM.
 2. ShellScripts: Location to store all the required shell scripts. NOTE: Make sure to allow all the be executable. 
